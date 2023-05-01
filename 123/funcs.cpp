@@ -5,8 +5,8 @@ using std::cin;
 using std::cout; 
 
 string f_login(KeyAuth::api app) {
-	string temp_name = "Dimi140";
-	string temp_pass = "xXDimi140Xx";
+	string temp_name;
+	string temp_pass;
 	
 	system("cls");
 	cout << "Name: ";
