@@ -7,8 +7,8 @@ using namespace KeyAuth;
 #define color(x) SetConsoleTextAttribute(hConsole, x);
 
 std::string name = "Test"; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
-std::string ownerid = "d33vIiXGmt"; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
-std::string secret = "ffacb14f4c9ed12a82cace0f0db848eb22b44a8096bf99c24cabc336763624c8"; // app secret, the blurred text on licenses tab and other tabs
+std::string ownerid = ""; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
+std::string secret = ""; // app secret, the blurred text on licenses tab and other tabs
 std::string version = "1.0"; // leave alone unless you've changed version on website
 std::string url = "https://keyauth.win/api/1.2/";// change if you're self-hosting
 
